@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_structures/array/array.md",
+                "file": "leetcode/217_contains_duplicate/217. Contains Duplicate.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_structures/array/array.md",
+                "file": "leetcode/217_contains_duplicate/217. Contains Duplicate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_structures/array/array.md",
+                "file": "leetcode/217_contains_duplicate/217. Contains Duplicate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_structures/array/array.md"
+                "file": "leetcode/217_contains_duplicate/217. Contains Duplicate.md"
               }
             }
           }
@@ -148,6 +148,16 @@
   },
   "active": "de6ea8874500e8fa",
   "lastOpenFiles": [
-    "data_structures/array/array.md"
+    "bin/main.main.2f3ffbc053e2b459-cgu.1.rcgu.o",
+    "bin/main.main.2f3ffbc053e2b459-cgu.2.rcgu.o",
+    "bin/main.main.2f3ffbc053e2b459-cgu.0.rcgu.o",
+    "bin/main.13yax69pf71ft7x7.rcgu.o",
+    "bin/main",
+    "data_structures/array/array.md",
+    "leetcode/217_contains_duplicate/217. Contains Duplicate.md",
+    "leetcode/217_contains_duplicate/main.rs",
+    "leetcode/217_contains_duplicate/main.go",
+    "leetcode/217_contains_duplicate/main.py",
+    "leetcode/217_contains_duplicate"
   ]
 }
