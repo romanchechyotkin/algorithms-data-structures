@@ -8,7 +8,6 @@ import (
 func main() {
 	log.Println(mergeIntervals([][]int{{2, 4}, {1, 5}, {8, 10}, {9, 14}, {15, 19}}))
 	log.Println(mergeIntervals([][]int{{2, 8}, {1, 5}, {8, 10}, {9, 14}, {15, 19}})) 
-	log.Println(mergeIntervals([][]int{{2, 8}, {1, 5}, {8, 10}, {9, 14}, {15, 19}})) 
 	log.Println(mergeIntervals([][]int{{2, 8}, {1, 4}, {4, 5}, {7, 11}, {0, 1}})) 
 }
 
@@ -24,18 +23,13 @@ func mergeIntervals(intervals [][]int) [][]int {
 
 	for i := 1; i < len(intervals); i++ {
 		interval := intervals[i] // [2, 4]
-
-		// merge intervals if true 
-		if interval[0] <= res[len(res)-1][1] {
-			if interval[1] >= res[len(res)-1][1] {
-				res[len(res)-1][1] = interval[1]
-			}
-
-			continue
+		lastItem := res[len(res)-1]
+		
+		if lastItem[1] >= interval[0] {
+			lastItem[1] = max(lastItem[1], interval[1])
+		} else {
+			res = append(res, interval)
 		}
-
-		// insert new interval
-		res = append(res, interval)
 	}
 
 
