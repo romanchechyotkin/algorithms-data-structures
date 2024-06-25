@@ -26,7 +26,7 @@ func nextGreatestLetter(letters []byte, target byte) byte {
 	}
 
 	if low == len(letters) {
-		return letters[0];
+		return letters[0]
 	}
 
 	return letters[low]
